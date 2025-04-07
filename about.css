@@ -1,0 +1,45 @@
+#about {
+    background-color: #1876F0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#about-icon {
+    height: 100%;
+    flex-basis: 50%;
+}
+
+#about-icon img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50vw;
+    height: 90vh;
+    object-fit: cover;
+}
+
+#about-content {
+    font-size: 1.3em;
+    flex: 1;
+}
+
+#about-content>p {
+    max-width: 70%;
+    font-size: 1.8em;
+    color: rgb(226, 226, 226);
+}
+
+#about-content>h1 {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 0.25em;
+}
+
+.highlight-text {
+    color: white;
+    opacity: 100%;
+    font-weight: bold;
+}
